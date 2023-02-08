@@ -20,7 +20,7 @@
 -- WHERE end_date is NULL
 -- ORDER BY cohort_id; 
 
-SELECT name, email, phone, github
-FROM students
-WHERE github is NULL 
-AND end_date IS NOT NULL;
+-- SELECT name, email, phone, github
+-- FROM students
+-- WHERE github is NULL 
+-- AND end_date IS NOT NULL;
